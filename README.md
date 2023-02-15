@@ -1,3 +1,4 @@
+Copy these two files into emr_hl7 root directory
 run the following commands:
 
 ```
