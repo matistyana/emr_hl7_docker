@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  emr_hl7:
+    build: .
+    container_name: emr_hl7
+    #command: [python, /app/minimal_python_project_boilerplate/app.py]
+    stdin_open: true
+    tty: true
+    volumes:
+      - $PWD:/app
