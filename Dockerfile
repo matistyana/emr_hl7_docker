@@ -7,5 +7,5 @@ RUN pip install --upgrade pip
 WORKDIR /app
 
 COPY . /app
-
+RUN pip3 install virtualenv 
 RUN make venv
