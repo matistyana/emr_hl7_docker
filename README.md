@@ -1,5 +1,4 @@
-Copy these two files into emr_hl7 root directory
-run the following commands:
+Copy these two files into emr_hl7 root directory and then run the following commands:
 
 ```
 docker-compose up --build &
